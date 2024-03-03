@@ -24,6 +24,12 @@ public class Launch {
     root.addComponent(dir2);
 
     // Executando a operação
-    root.printDescription();
+    printDescription(root);
+    System.out.println();
+    printDescription(file2);
+  }
+
+  public static void printDescription(FileSystemComponent component) {
+    component.printDescription();
   }
 }

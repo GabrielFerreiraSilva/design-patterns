@@ -14,10 +14,13 @@ O padrão Composite é um padrão estrutural de objetos
 
 # Neste exemplo
 
+Temos um sistema de gerenciamento de arquivos que consegue tratar de maneira uniforme tanto arquivos
+quanto diretórios
+
 - FileSystemComponent define a interface para todos os componentes do sistema de arquivos, sejam
-eles diretórios ou arquivos. Além das operações para os componentes, essa interface define métodos
-de adição, remoção e busca de componentes filhos
+  eles diretórios ou arquivos. Além das operações para os componentes, essa interface define métodos
+  de adição, remoção e busca de componentes filhos
 - File é o componente folha que implementa a operação e, para os métodos que são exclusivos de nós,
-lança exceções
+  lança exceções
 - Directory é o componente nó que deve ter uma lista de objetos folha. Na operação, deve ser feita
-uma iteração sobre todos os elementos da lista chamando a mesma operação
+  uma iteração sobre todos os elementos da lista chamando a mesma operação
