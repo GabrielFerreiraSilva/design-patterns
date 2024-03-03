@@ -5,7 +5,7 @@ dependentes sem especificar suas classes concretas.
 
 # Classificação
 
-O padrão Abstract Factory criacional de objetos.
+O padrão Abstract Factory é um padrão criacional de objetos.
 
 # Diagrama
 
