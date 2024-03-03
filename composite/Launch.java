@@ -1,5 +1,9 @@
 package composite;
 
+import composite.classes.Directory;
+import composite.classes.File;
+import composite.classes.FileSystemComponent;
+
 public class Launch {
   public static void main(String[] args) {
     // Criando arquivos

@@ -1,4 +1,4 @@
-package composite;
+package composite.classes;
 
 public interface FileSystemComponent {
   void printDescription();

@@ -1,4 +1,4 @@
-package composite;
+package composite.classes;
 
 public class File implements FileSystemComponent {
   private final String name;
